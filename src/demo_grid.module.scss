@@ -1,0 +1,26 @@
+.ag-theme-alpine {
+  position: relative;
+  // --ag-grid-size: 10px;
+  // --ag-list-item-height: 40px;
+
+  // --ag-control-panel-background-color: rgb(228, 197, 203);
+  // --ag-side-button-selected-background-color: rgb(228, 197, 203);
+
+  // --ag-selected-tab-underline-color: deeppink;
+  // --ag-selected-tab-underline-width: 2px;
+  // --ag-selected-tab-underline-transition-speed: 0.5s;
+
+  // --ag-side-bar-panel-width: 300px;
+}
+
+.ag-theme-alpine .ag-filter-toolpanel-group-title-bar {
+  /* use a semi-transparent background to show the background colour behind */
+  background-color: rgb(255, 255, 255, 0.2);
+}
+
+.ag-theme-alpine .ag-context-menu {
+  position: absolute;
+  top: 0;
+  z-index: 9999;
+  border: 1px solid red;
+}
